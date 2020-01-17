@@ -1,0 +1,35 @@
+{
+	"name": "jordan-uses-aviationstack",
+	"version": "1.0.0",
+	"description": "Jordan shows examples of how to aviationstack, an API that allows access to global aviation data for real-time and historical flights.",
+	"main": "./dist/index.js",
+	"scripts": {
+		"start": "tsc && node ./dist/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aarmora/jordan-uses-aviationstack.git"
+	},
+	"keywords": [
+		"typescript",
+		"javascript",
+		"apilayer",
+		"aviationstack"
+	],
+	"author": "Jordan Hansen",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/aarmora/jordan-uses-aviationstack/issues"
+	},
+	"homepage": "https://github.com/aarmora/jordan-uses-aviationstack#readme",
+	"dependencies": {
+		"axios": "^0.19.0",
+		"dotenv": "^8.2.0"
+	},
+	"devDependencies": {
+		"@types/axios": "^0.14.0",
+		"@types/dotenv": "^8.2.0",
+		"@types/node": "^13.1.2",
+		"typescript": "^3.7.4"
+	}
+}
